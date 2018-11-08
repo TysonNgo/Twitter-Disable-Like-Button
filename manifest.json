@@ -1,0 +1,10 @@
+{
+    "name": "Twitter Like Button Disabler",
+    "version": "1.0.0",
+    "description": "Makes the like button in Twitter do nothing.",
+    "permissions": ["webRequest", "webRequestBlocking", "*://*.twitter.com/*"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}
